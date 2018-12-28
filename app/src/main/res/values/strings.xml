@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ensiklopedia Tanamana Hias</string>
+    <string name="title_home">Tanaman Hias Tropis</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="spinkonten">
+        <item>Komoditas Balithi</item>
+        <item>Varietas Balithi</item>
+        <item>Tanaman Hias Tropis</item>
+        <item>Hama dan Penyakit Krisan</item>
+    </string-array>
+</resources>

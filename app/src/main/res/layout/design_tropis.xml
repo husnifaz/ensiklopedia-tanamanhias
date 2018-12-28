@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:paddingLeft="16dp"
+         android:paddingRight="16dp"
+         android:paddingTop="10dp"
+         android:paddingBottom="10dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="3">
+
+             <de.hdodenhof.circleimageview.CircleImageView
+                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                 android:id="@+id/daftar_icon"
+                 android:layout_width="70dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_height="70dp"
+                 android:layout_centerVertical="true"
+                 android:layout_alignParentLeft="true"
+                 app:border_color="#fff"
+                 app:border_width="3dp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/jenis_tropis"
+                 android:text="Jenis"
+                 android:textSize="18dp"
+                 android:layout_marginBottom="5dp"
+                 android:textStyle="bold"/>
+
+             <TextView
+                 android:id="@+id/umum_tropis"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Nama umum"/>
+
+             <TextView
+                 android:id="@+id/asal_tropis"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="asd"
+                 android:maxLength="200"
+                 android:layout_marginBottom="5dp"
+                 android:ellipsize="end"
+                 android:maxLines="2"/>
+
+         </LinearLayout>
+
+
+     </LinearLayout>
+</LinearLayout>

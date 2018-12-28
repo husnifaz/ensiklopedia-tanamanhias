@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1049861153956",
+    "firebase_url": "https://kamusbalithi.firebaseio.com",
+    "project_id": "kamusbalithi",
+    "storage_bucket": "kamusbalithi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049861153956:android:6c18724c0f723d1a",
+        "android_client_info": {
+          "package_name": "com.mobile.balithi.kamusbalithi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049861153956-7obrppgueu040naii6stsif5oin2g71g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.balithi.kamusbalithi",
+            "certificate_hash": "091617e5dc433c5de3376e1c9044de8cf28465ec"
+          }
+        },
+        {
+          "client_id": "1049861153956-mo6nd1r2v1f9p55a02d5vt4a5j482ign.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ_zY7jJW0ZdpCBWyhiFjQhHftvCB-WlU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049861153956-mo6nd1r2v1f9p55a02d5vt4a5j482ign.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

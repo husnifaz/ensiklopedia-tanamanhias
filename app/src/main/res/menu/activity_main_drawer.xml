@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_varietas"
+            android:icon="@drawable/varunggul"
+            android:title="Varietas Balithi" />
+        <item
+            android:id="@+id/nav_tropis"
+            android:icon="@drawable/tropis"
+            android:title="Tanaman Hias Tropis" />
+        <item
+            android:id="@+id/nav_hapen"
+            android:icon="@drawable/img_virus"
+            android:title="Hama &amp; Penyakit Krisan" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_action_action_search"
+            android:title="Menu Pencarian" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Tentang Aplikasi" />
+    </group>
+
+
+</menu>
